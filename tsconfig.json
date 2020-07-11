@@ -14,7 +14,17 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ngf-multi-select": [
+        "dist/ngf-multi-select/ngf-multi-select",
+        "dist/ngf-multi-select"
+      ],
+      "ngf-grid": [
+        "dist/ngf-grid/ngf-grid",
+        "dist/ngf-grid"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
